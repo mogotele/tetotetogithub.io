@@ -1,0 +1,124 @@
+body{
+    background-color: #F0E3E3;
+    text-align: center;
+}
+h1 {
+    position: relative;
+    padding: 0.5em;
+    background: #BC9692;
+    color: white;
+  }
+  
+  h1::before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 0;
+    border: none;
+    border-bottom: solid 15px transparent;
+    border-right: solid 20px rgb(149, 158, 155);
+  }
+
+  section {
+    position: relative;
+    border-top: solid 2px rgb(238, 166, 118);
+    border-bottom: solid 2px rgb(238, 166, 118);
+    background: #f5f0ddd8;
+    line-height: 1.4;
+    padding: 2em 5em;
+    margin: 2em 3em 5em;
+  }
+  
+  section:after {
+    /*タブ*/
+    position: absolute;
+    font-family: "Font Awesome 5 Free",'Quicksand','Avenir','Arial',sans-serif;
+    content: '\f0a7\ POINT';
+    background: rgb(238, 166, 118);
+    color: #fff;
+    left: 0px;
+    bottom: 100%;
+    border-radius: 5px 5px 0 0;
+    padding: 5px 7px 3px;
+    font-size: 0.7em;
+    line-height: 1;
+    letter-spacing: 0.05em;
+  }
+
+  .btn-gradient-radius {
+    display: inline-block;
+    padding: 7px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    background-image: linear-gradient(45deg, rgb(235, 188, 183) 0%, #E57F75 100%);
+    transition: .4s;
+  }
+  
+  .btn-gradient-radius:hover {
+    background-image: linear-gradient(45deg, rgb(235, 188, 183) 0%, #E57F75 100%);
+  }
+
+  .btn-gradient-radius2 {
+    display: inline-block;
+    padding: 7px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+    background-image: linear-gradient(45deg,rgb(235, 188, 183) 0%, #E57F75 100%);
+    transition: .4s;
+  }
+  
+  .btn-gradient-radius2:hover {
+    background-image: linear-gradient(45deg, rgb(235, 188, 183) 0%, #E57F75 100%);
+  }
+
+  .PR6 {
+    color:rgb(202, 78, 29);
+    font-size: 25px;
+  }
+  .PR1 {
+    color:rgb(206, 173, 112);
+    font-size: 25px;
+  
+  }
+  .PR2 {
+    color:rgb(145, 137, 29);
+    font-size: 30px;
+  }
+  .PR3 {
+    color:rgb(24, 122, 32);
+    font-size: 28px;
+  }
+  .PR4 {
+    color:rgb(56, 180, 189);
+    font-size:25px;
+  }
+  .PR5 {
+    color:rgb(196, 133, 192);
+    font-size: 25px;
+  }
+  
+    
+  }
+
+  table{
+    background-color: palegoldenrod;
+    padding-top: 4em;
+  }
+  th {
+    padding: 1em ;
+    background-color: rgba(238, 232, 170, 0.411);
+  }
+
+  td{
+
+    background-color: #f5f0ddd8;
+    color: rgb(46, 45, 45);
+  }
+
+  footer{
+    background: rgb(241, 230, 212);
+    height: 300;
+  }
